@@ -18,8 +18,14 @@ git commit -a -m 'Summary'
 line warp is not necessary here
 ```
 >Quote  
-***
 Separating Line
+***
+- list 
++ and list
+* also list
+
+1.Ordered list
+2.list
 
 ## 2018-07-27  
 
