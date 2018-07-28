@@ -21,14 +21,14 @@ line warp is not necessary here
 
 Separating Line
 ***
-- list 
-+ and list
-* also list
+- List 
++ And list
+* Also list
 
 
 1. Ordered list
 2. Ordered list
-10. the number actually doesn't matter
+10. The number actually doesn't matter
 
 ## 2018-07-27  
 
