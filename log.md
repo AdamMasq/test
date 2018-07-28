@@ -1,6 +1,12 @@
 # Git Notes
 
-## 2018-07-27
+## 2018-07-28  
+
+#### Terminal Commands
+
+git commit -a -m 'Summary'
+
+## 2018-07-27  
 
 #### Webpage
 
