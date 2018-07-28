@@ -4,13 +4,13 @@
 
 ### Terminal Commands
 
-git commit -a -m 'Summary'  
+    git commit -a -m 'Summary'  
 
 ### Markdown
 
-*Italic*  
-**Bold**  
-***Bold Italic***  
+    *Italic*  
+    **Bold**  
+    ***Bold Italic***  
 ~~Delete~~  
 `Code`  
 ```C++
