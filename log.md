@@ -52,4 +52,5 @@ Push
 
 ### Markdown
 
-Line warp: add a empty line or add two spaces  
+Line warp: add two spaces at the end of a line  
+New Paragraph: add a empty line
