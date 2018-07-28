@@ -2,11 +2,11 @@
 
 ## 2018-07-28  
 
-#### Terminal Commands
+### Terminal Commands
 
 git commit -a -m 'Summary'  
 
-#### Markdown
+### Markdown
 
 *Italic*  
 **Bold**  
@@ -32,24 +32,24 @@ Separating Line
 
 ## 2018-07-27  
 
-#### Webpage
+### Webpage
 
 Creating a repostory and add README and license  
 Add README manually  
 
-#### Terminal Commands
+### Terminal Commands
 
 git add  
 git status  
 git commit -m 'Summary'  
 git push <-u origin master>  
 
-#### Github Desktop
+### Github Desktop
 
 Pull / Restore the repo to a given directory  
 Commit  
 Push  
 
-#### Markdown
+### Markdown
 
 Line warp: add a empty line or add two spaces  
