@@ -8,9 +8,9 @@
 
 ### Markdown
 
-    *Italic*  
-    **Bold**  
-    ***Bold Italic***  
+*Italic*  
+**Bold**  
+***Bold Italic***  
 ~~Delete~~  
 `Code`  
 ```C++
