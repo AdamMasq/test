@@ -8,11 +8,15 @@ git commit -a -m 'Summary'
 
 #### Markdown
 
-*Italic* '*Italic*'
+*Italic*  
 **Bold**  
 ***Bold Italic***  
 ~~Delete~~  
 `Code`  
+```C++
+#include <manyLineOfCodes>
+using three `
+```
 >Quote  
 
 
