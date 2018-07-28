@@ -8,12 +8,12 @@ git commit -a -m 'Summary'
 
 #### Markdown
 
-*Italic*
+*Italic* >*Italic*  
 **Bold**  
-***Bold Italic***
-~~Delete~~
-`Code`
->Quote
+***Bold Italic***  
+~~Delete~~  
+`Code`  
+>Quote  
 
 
 ## 2018-07-27  
