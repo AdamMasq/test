@@ -1,3 +1,4 @@
 ### Hello World!
 
-This is the first Git repository of Li-Xiaotian. It will help him to use Git system.
+This is my first Git repository.
+I'll do git practice here this summer vacation.
