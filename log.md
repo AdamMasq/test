@@ -8,7 +8,7 @@ git commit -a -m 'Summary'
 
 #### Markdown
 
-*Italic* >*Italic*  
+*Italic* '*Italic*'
 **Bold**  
 ***Bold Italic***  
 ~~Delete~~  
