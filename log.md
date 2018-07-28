@@ -15,10 +15,11 @@ git commit -a -m 'Summary'
 `Code`  
 ```C++
 #include <manyLineOfCodes>
-using three `
+line warp is not necessary here
 ```
 >Quote  
-
+***
+Separating Line
 
 ## 2018-07-27  
 
