@@ -21,7 +21,7 @@ line warp is not necessary here
 
 Separating Line
 ***
-- List 
+- List
 + And list
 * Also list
 
