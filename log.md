@@ -24,8 +24,9 @@ Separating Line
 + and list
 * also list
 
-1.Ordered list
-2.list
+1. Ordered list
+2. Ordered list
+10. the number actually doesn't matter
 
 ## 2018-07-27  
 
