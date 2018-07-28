@@ -4,7 +4,17 @@
 
 #### Terminal Commands
 
-git commit -a -m 'Summary'
+git commit -a -m 'Summary'  
+
+#### Markdown
+
+*Italic*
+**Bold**  
+***Bold Italic***
+~~Delete~~
+`Code`
+>Quote
+
 
 ## 2018-07-27  
 
