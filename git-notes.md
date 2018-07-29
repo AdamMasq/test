@@ -4,31 +4,7 @@
 
 ### Terminal Commands
 
-    git commit -a -m 'Summary'  
-
-### Markdown
-
-*Italic*  
-**Bold**  
-***Bold Italic***  
-~~Delete~~  
-`Code`  
-```C++
-#include <manyLineOfCodes>
-line warp is not necessary here
-```
->Quote  
-
-Separating Line
-***
-- List
-+ And list
-* Also list
-
-
-1. Ordered list
-2. Ordered list
-10. The number actually doesn't matter
+git commit -a -m 'Summary'  
 
 ## 2018-07-27  
 
@@ -49,8 +25,3 @@ git push <-u origin master>
 Pull / Restore the repo to a given directory  
 Commit  
 Push  
-
-### Markdown
-
-Line warp: add two spaces at the end of a line  
-New Paragraph: add a empty line
