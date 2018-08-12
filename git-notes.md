@@ -48,7 +48,13 @@ where the `-u` tells the system to remember the parameters
 **Branch**
 
 `git branch <branchname>` to creat a new branch  
-`git checkout <branchname>` to swich to the branch  
+`git checkout <branchname>` to switch to the branch  
+`git checkout -b <branchname>` to create and switch to a new branch  
+`git branch` to see the branch list
+
+**Merging**  
+
+`git merge <branchname>` merge the branch into the current one
 
 ## 2018-07-28  
 
