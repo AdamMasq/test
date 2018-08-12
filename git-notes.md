@@ -42,6 +42,7 @@ where the `-u` tells the system to remember the parameters
 **Reset and checkout**
 
 `git reset <filename>` to remove the file from staged status  
+`git reset HEAD` to remove the cancel the staged files    
 
 `git checkout --<filename>` to reset the file to the latest committed version
 
@@ -50,11 +51,20 @@ where the `-u` tells the system to remember the parameters
 `git branch <branchname>` to creat a new branch  
 `git checkout <branchname>` to switch to the branch  
 `git checkout -b <branchname>` to create and switch to a new branch  
-`git branch` to see the branch list
+`git branch` to see the branch list  
+`git branch -d <branchname>` to delete a branch  
 
 **Merging**  
 
 `git merge <branchname>` merge the branch into the current one
+
+**Conflict**  
+when merging two conflicting branches, the file where conflicts emerge will have to be modified manually  
+<img src="img\conflict.png" width="585px" height="142px">  
+after solving the conflict in the file,  
+`git add <filename>`  
+`git commit -m <summary>`  
+to finish merging
 
 ## 2018-07-28  
 
