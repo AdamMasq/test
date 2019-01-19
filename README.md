@@ -3,11 +3,19 @@
 This is my first Git repository.  
 I'll do git practice here this summer vacation.
 
-***
-Also, it is my git note.
+Git notes, and project reviews are stored here.
 
 ***
-2018-08-12 Added Sololearn Git
+*2019-01-19*  
+
+Added npg review.
 
 ***
-2018-07-29 Markdown notes are branched out.
+*2018-08-12*  
+
+Added Sololearn Git.
+
+***
+*2018-07-29*  
+
+Markdown notes are branched out.
