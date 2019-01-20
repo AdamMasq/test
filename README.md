@@ -1,9 +1,11 @@
 ## Hello World!
 
 This is my first Git repository.  
-I'll do git practice here this summer vacation.
 
-Git notes, and project reviews are stored here.
+***
+*2019-01-20*
+
+Branched out git notes and reviews
 
 ***
 *2019-01-19*  
