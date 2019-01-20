@@ -344,3 +344,20 @@ sys.argv[]
 
 #endif
 ```
+
+#### Get Path
+```C
+#include <io.h>
+...
+
+long getcwd(char *buf, unsigned long size);
+```
+
+#### Convert Between `char*` and `string`
+```C
+#include <string>
+...
+
+string string(char* charPointer);
+const char* <string>.c_str();
+```
