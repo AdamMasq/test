@@ -1,25 +1,13 @@
-set nocompatible
-filetype off
-set rtp+=/home/lxt/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-call vundle#end()
-filetype plugin indent on
+" vim-plug Plugins
+call plug#begin('~/.vim/plugged')
+Plug 'itchyny/lightline.vim'
+Plug 'tomasiser/vim-code-dark'
+call plug#end()
 
-Plugin 'tomasiser/vim-code-dark'
-
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
-"let g:airline_theme='angr'
-"let g:airline_powerline_fonts = 1
-
-Plugin 'itchyny/lightline.vim'
 let g:lightline = {'colorscheme': 'one',}
 
 if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
-   set fileencodings=ucs-bom,utf-8,latin1
+  set fileencodings=ucs-bom,utf-8,latin1
 endif
 
 set nocompatible	" Use Vim defaults (much better!)
@@ -50,18 +38,18 @@ if has("autocmd")
 endif
 
 if has("cscope") && filereadable("/usr/bin/cscope")
-   set csprg=/usr/bin/cscope
-   set csto=0
-   set cst
-   set nocsverb
-   " add any database in current directory
-   if filereadable("cscope.out")
-      cs add $PWD/cscope.out
-   " else add database pointed to by environment
-   elseif $CSCOPE_DB != ""
-      cs add $CSCOPE_DB
-   endif
-   set csverb
+  set csprg=/usr/bin/cscope
+  set csto=0
+  set cst
+  set nocsverb
+  " add any database in current directory
+  if filereadable("cscope.out")
+    cs add $PWD/cscope.out
+  " else add database pointed to by environment
+  elseif $CSCOPE_DB != ""
+    cs add $CSCOPE_DB
+  endif
+  set csverb
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
@@ -74,9 +62,9 @@ endif
 filetype plugin on
 
 if &term=="xterm"
-     set t_Co=8
-     set t_Sb=[4%dm
-     set t_Sf=[3%dm
+  set t_Co=8
+  set t_Sb=[4%dm
+  set t_Sf=[3%dm
 endif
 
 " Don't wake up system with blinking cursor:
