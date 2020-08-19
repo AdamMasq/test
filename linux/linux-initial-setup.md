@@ -5,9 +5,15 @@
 
 #### 1) Add user and set password
 
+CentOS:
 ```
 useradd username
 passwd username
+```
+
+Ubuntu:
+```
+adduser username
 ```
 
 #### 2) Add to sudoers
@@ -96,7 +102,7 @@ colorscheme codedark
 
 #### 4) Other configuration settings
 
-Copy the vim configuration file [`./assets/.vimrc`](/linux/assets/.vimrc)
+Copy the vim configuration file [./assets/.vimrc](/linux/assets/.vimrc) to `.vimrc`.
 
 ## Setup Python 3.x
 
@@ -113,6 +119,8 @@ Ubuntu:
 ```
 sudo apt install python3-pip
 ```
+
+Python is installed in Ubuntu by default.
 
 #### 2) Replace PIP source to Tsinghua mirror
 
