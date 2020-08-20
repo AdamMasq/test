@@ -134,3 +134,7 @@ N. B.: `sudo pip3` and `pip3` install packages into different directories! And t
 ## Replace Ubuntu Software Source
 
 Settings -> About -> Software Update -> choose a server
+
+Or
+
+[Ubuntu 镜像使用帮助 - TUNA](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)
