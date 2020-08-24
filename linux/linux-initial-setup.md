@@ -73,10 +73,8 @@ Some themes may require powerline fonts, which can be found at [powerline/fonts]
 #### 1) Install vim-plug
 
 ```
-git clone https://github.com/junegunn/vim-plug.git ~/vim-plug
 mkdir -p ~/.vim/autoload
-cp ~/vim-plug/plug.vim ~/.vim/autoload/plug.vim
-rm -r ~/vim-plug
+wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -O ~/.vim/autoload/plug.vim
 ```
 
 To install a plugin, add `Plug 'pluginname'` in the section which starts with `call plug#begin('~/.vim/plugged')` and ends with `call plug#end()` in the vim configuration file (`~/.vimrc` or `/etc/.vimrc`), then run `:PlugInstall` in Vim.

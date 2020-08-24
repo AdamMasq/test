@@ -86,7 +86,7 @@ set expandtab
 set softtabstop=4
 set linebreak
 set wrap
-set scrolloff=16
+set scrolloff=10
 set autoread
 "highlight LineNr ctermfg=grey
 colorscheme codedark
