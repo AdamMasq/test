@@ -65,7 +65,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 Copy the configuration file [./assets/.zshrc](/linux/assets/.zshrc) to `~`.
 
-Some themes may require powerline fonts, which can be found at [powerline/fonts](https://github.com/powerline/fonts) and [eugeneching/consolas-powerline-vim](https://github.com/eugeneching/consolas-powerline-vim).
+Some themes may require powerline fonts, which can be found at [powerline/fonts](https://github.com/powerline/fonts) and [Znuff/consolas-powerline](https://github.com/Znuff/consolas-powerline).
 
 
 ## Configure Vim
