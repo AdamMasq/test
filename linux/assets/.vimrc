@@ -61,15 +61,24 @@ endif
 
 filetype plugin on
 
-if &term=="xterm"
-  set t_Co=8
-  set t_Sb=[4%dm
-  set t_Sf=[3%dm
-endif
-
 " Don't wake up system with blinking cursor:
 " http://www.linuxpowertop.org/known.php
 let &guicursor = &guicursor . ",a:blinkon0"
+
+map <F5> :call CompileRun()<CR>
+
+func! CompileRun()
+    exec "w"
+    if &filetype == 'c'
+        exec '!gcc % -o %<'
+        exec '!./%<'
+    elseif &filetype == 'cpp'
+        exec '!g++ % -o %<'
+        exec '!./%<'
+    elseif &filetype == 'python'
+        exec '!python3 %'
+    endif
+endfunc
 
 " My settings
 set number
@@ -86,7 +95,7 @@ set expandtab
 set softtabstop=4
 set linebreak
 set wrap
-set scrolloff=10
+set scrolloff=2
 set autoread
 "highlight LineNr ctermfg=grey
 colorscheme codedark
