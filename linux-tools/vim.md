@@ -52,8 +52,10 @@
 * `#` previous whole word under cursor
 * `g*` next matching search (not whole word) pattern under cursor
 * `g#` previous matching search (not whole word) pattern under cursor
-* `gd` go to **definition**/first occurrence of the word under cursor
-* `%` jump to matching bracket
+* `gd` **definition**/first occurrence of the word under cursor
+* `%` matching bracket
+* `ctrl-o` last cursor position
+* `ctrl-i` next cursor position
 
 ### Searching
 
@@ -101,7 +103,6 @@
 * `cfx` same, but include the 'x'
 * `ytx` yank all text till the next 'x'
 * `yfx` same, but include the 'x'
-
 
 ### Search and Replace
 

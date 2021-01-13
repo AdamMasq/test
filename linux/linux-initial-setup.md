@@ -98,7 +98,35 @@ Apply the colour scheme in `.vimrc` by
 colorscheme codedark
 ```
 
-#### 4) Other configuration settings
+#### 4) Install [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
+
+```
+Plug 'Valloric/YouCompleteMe'
+```
+
+Compile YCM
+
+```
+cd ~/.vim/plugged/YouCompleteMe
+sudo python3 ./install.py --all
+```
+
+Copy YCM conf file
+
+```
+cp ~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/
+```
+
+Configure YCM in `.vimrc`
+
+```
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_path_to_python_interpreter = '/usr/bin/python3'
+let g:ycm_min_num_of_chars_for_completion = 2
+let g:ycm_auto_trigger = 0  " disable YCM
+```
+
+#### Other configuration settings
 
 Copy the vim configuration file [./assets/.vimrc](/linux/assets/.vimrc) to `.vimrc`.
 
