@@ -14,23 +14,23 @@ sudo apt install chrome-gnome-shell
 sudo apt install gnome-shell-extensions
 ```
 
-Follow the instructions on [https://extensions.gnome.org](https://extensions.gnome.org) to install the Gnome Extension on FireFox.
+Follow the instructions on <https://extensions.gnome.org> to install the Gnome Extension on FireFox.
 
 
 ## Themes
 
 Recommended themes:
 
-* [https://github.com/vinceliuice/ChromeOS-theme](https://github.com/vinceliuice/ChromeOS-theme)
-* [https://github.com/vinceliuice/Azure-theme](https://github.com/vinceliuice/Azure-theme)
-* [https://github.com/vinceliuice/Toffee-gtk-theme](https://github.com/vinceliuice/Toffee-gtk-theme)
-* [https://github.com/vinceliuice/Sierra-gtk-theme](https://github.com/vinceliuice/Sierra-gtk-theme)
-* [https://github.com/vinceliuice/Mojave-gtk-theme](https://github.com/vinceliuice/Mojave-gtk-theme)
-* [https://github.com/vinceliuice/Tela-icon-theme](https://github.com/vinceliuice/Tela-icon-theme)
-* [https://github.com/vinceliuice/Tela-circle-icon-theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
-* [https://github.com/vinceliuice/Qogir-icon-theme](https://github.com/vinceliuice/Qogir-icon-theme)
-* [https://github.com/vinceliuice/McMojave-circle](https://github.com/vinceliuice/McMojave-circle)
-* [https://github.com/vinceliuice/WhiteSur-cursors](https://github.com/vinceliuice/WhiteSur-cursors)
+* <https://github.com/vinceliuice/ChromeOS-theme>
+* <https://github.com/vinceliuice/Azure-theme>
+* <https://github.com/vinceliuice/Toffee-gtk-theme>
+* <https://github.com/vinceliuice/Sierra-gtk-theme>
+* <https://github.com/vinceliuice/Mojave-gtk-theme>
+* <https://github.com/vinceliuice/Tela-icon-theme>
+* <https://github.com/vinceliuice/Tela-circle-icon-theme>
+* <https://github.com/vinceliuice/Qogir-icon-theme>
+* <https://github.com/vinceliuice/McMojave-circle>
+* <https://github.com/vinceliuice/WhiteSur-cursors>
 
 Set the themes in Tweak.
 
