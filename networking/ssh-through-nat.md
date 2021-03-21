@@ -16,8 +16,8 @@ Bind MAC and IP address of server in router settings. Then register NAT port map
 
 Settings > Apps > Apps & Features > Optional Features > Add Feature > OpenSSH Server/Client > Install
 
-Start SSH service:
-```ps
+Start SSH service (as Administrator):
+```
 Start-Service sshd
 Set-Service -Name sshd -StartupType 'Automatic'
 Get-NetFirewallRule -Name *ssh*
@@ -29,6 +29,6 @@ Settings also in Control Panel > System and Security > Windows Defender Firewall
 ## Establish SSH
 
 On server:
-```ps
+```
 ssh <username>@<DDNS address> -p <External Port>
 ```
